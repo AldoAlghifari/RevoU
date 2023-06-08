@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3%;
+  background-color: aquamarine;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: yellow;
+}
+.navbar .navbar-nav a {
+  color: black;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 1rem;
+}
+
+.navbar .navbar-nav a:hover {
+  color: goldenrod;
+}
+
+.hero {
+  min-height: 100hv;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero .content {
+  padding: 4rem 7%;
+  max-width: 60rem;
+}
+
+.hero .content h1 {
+  font-size: 1.5em;
+  color: black;
+}
+
+.about,
+.messageus {
+  padding: 5rem 7 % 5rem;
+  width: 50%;
+  height: 100%;
+}
+
+.about h1,
+.messageus h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.about .row {
+  justify-content: space-between;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #ccc;
+  margin: 25px;
+  outline: dashed 2px black;
+}
+
+.messageus .message-form .hasil {
+  display: flex;
+  justify-content: ;
+}
+footer {
+  background-color: aquamarine;
+}
+footer {
+  text-align: right;
+  padding: 1rem 0;
+  margin: 0;
+  right: 3rem;
+}
